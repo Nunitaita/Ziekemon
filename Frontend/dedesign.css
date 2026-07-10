@@ -1,0 +1,25 @@
+.vieleziegen {
+    height: 100px;
+    width: 100px;
+}
+.vieleziegen2 {
+    height: 100px;
+    width: 100px;
+}
+.ziegenschlächter {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    z-index: 2;
+} 
+.container {
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+    /* width: 100px; */
+    overflow: visible;
+    flex-wrap: wrap;
+    z-index: 1;
+} 
